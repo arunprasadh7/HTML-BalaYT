@@ -1,2 +1,2 @@
-# HTML-BalaYT
-Contains personal code snippets for HTML course from Bala YT
+# HTML Course 
+Contains personal code snippets and projects from Balachandra YT for Html course
