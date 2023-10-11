@@ -14,90 +14,130 @@
   <body>
     <h1>Hello World h1</h1>
     <hr />
-    <p>The first chapter is for Head section</p>
-    <h2><em>I'm in Chapter 3</em> h2</h2>
-    <p>
-      This contains <strong> Text basics</strong> <br />
-      &nbsp;&nbsp;&nbsp; Arun
-    </p>
-    <h3>Subscribed h3</h3>
-    <p>I'm really enjoying this course</p>
+    <nav>
+      <ul>
+        <li><a href="#text basics">Text Basics</a></li>
+        <li><a href="#address">Address</a></li>
+        <li><a href="#entity">Entities</a></li>
+        <li><a href="#list">Lists</a></li>
+        <li><a href="#link">Links</a></li>
+      </ul>
+    </nav>
     <hr />
-    <h2>I'm in Chapter 4 h2</h2>
-    <p>Comment section</p>
-    <h3>Commented</h3>
-    <p>I'm really enjoying this <br />course</p>
+    <section id="text basics">
+      <p>The first chapter is for Head section</p>
+      <h2><em>I'm in Chapter 3</em> h2</h2>
+      <p>
+        This contains <strong> Text basics</strong> <br />
+        &nbsp;&nbsp;&nbsp; Arun
+      </p>
+      <h3>Subscribed h3</h3>
+      <p>I'm really enjoying this course</p>
+    </section>
     <hr />
-    <h3>Address element</h3>
-    <!--Todo : Have to specify full address-->
-    <address>Coimbatore</address>
+    <section id="ch4">
+      <h2>I'm in Chapter 4 h2</h2>
+      <p>Comment section</p>
+      <h3>Commented</h3>
+      <p>I'm really enjoying this <br />course</p>
+    </section>
     <hr />
-    <h3>HTML entities</h3>
-    <p>
-      Spacing between words can be given by <br />
-      &nbsp;&nbsp;&nbsp;Non-break-spacing(nbsp)
-    </p>
-    <p>
-      Less than <br />
-      &lt; <br />
-      Greater than &gt; <br />
-      Right arrow &rightarrow; <br />
-      Left arrow &leftarrow; <br />
-      Copyright symbol &copy;Arun
-    </p>
-    <p>
-      I learn from <abbr title="Mozilla Developer Network">MDN</abbr> resources
-    </p>
+    <section id="address">
+      <h3>Address element</h3>
+      <!--Todo : Have to specify full address-->
+      <address>Coimbatore</address>
+    </section>
     <hr />
-    <h2>Lists in HTML</h2>
-    <p>There are two types Ordered & Unordered Lists</p>
-    <p>Ordered Lists</p>
-    <ol>
-      <li>Number One</li>
-      <li>Number two</li>
-      <li>Number three</li>
-    </ol>
-    <p>UnOrdered Lists</p>
-    <ul>
-      <li>One</li>
-      <li>Two</li>
-      <li>Three</li>
-    </ul>
-    <br />
-    <p>Nested Lists</p>
-    <p>Computer parts</p>
-    <ol>
-      <li>
-        Monitor
-        <ul>
-          <li>32 inch</li>
-          <li>2k</li>
-          <li>Color corrected</li>
-        </ul>
-      </li>
-      <li>
-        Processor
-        <ul>
-          <li>Ryzen 5700g</li>
-        </ul>
-      </li>
-      <li>
-        Cabinet
-        <ul>
-          <li>Galax Rev05</li>
-        </ul>
-      </li>
-    </ol>
-    <p>Description List</p>
-    <dl>
-      <dt>Monitor</dt>
-      <dd>MOnitor is an output device</dd>
+    <section id="entity">
+      <h3>HTML entities</h3>
+      <p>
+        Spacing between words can be given by <br />
+        &nbsp;&nbsp;&nbsp;Non-break-spacing(nbsp)
+      </p>
+      <p>
+        Less than <br />
+        &lt; <br />
+        Greater than &gt; <br />
+        Right arrow &rightarrow; <br />
+        Left arrow &leftarrow; <br />
+        Copyright symbol &copy;Arun
+      </p>
+      <p>
+        I learn from
+        <abbr title="Mozilla Developer Network">MDN</abbr> resources
+      </p>
+    </section>
+    <hr />
+    <section id="list">
+      <h2>Lists in HTML</h2>
+      <p>There are two types Ordered & Unordered Lists</p>
+      <p>Ordered Lists</p>
+      <ol>
+        <li>Number One</li>
+        <li>Number two</li>
+        <li>Number three</li>
+      </ol>
+      <p>UnOrdered Lists</p>
+      <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+      </ul>
       <br />
-      <dt>Keyboard</dt>
-      <dd>Keyboard is an input device</dd>
+      <p>Nested Lists</p>
+      <p>Computer parts</p>
+      <ol>
+        <li>
+          Monitor
+          <ul>
+            <li>32 inch</li>
+            <li>2k</li>
+            <li>Color corrected</li>
+          </ul>
+        </li>
+        <li>
+          Processor
+          <ul>
+            <li>Ryzen 5700g</li>
+          </ul>
+        </li>
+        <li>
+          Cabinet
+          <ul>
+            <li>Galax Rev05</li>
+          </ul>
+        </li>
+      </ol>
+      <p>Description List</p>
+      <dl>
+        <dt>Monitor</dt>
+        <dd>MOnitor is an output device</dd>
+        <br />
+        <dt>Keyboard</dt>
+        <dd>Keyboard is an input device</dd>
+        <br />
+        <dt>Mouse</dt>
+        <dd>Mouse is an input device</dd>
+      </dl>
+    </section>
+    <hr />
+    <section id="link">
+      <h2>Links in HTML</h2>
+      <a
+        href="https://www.youtube.com/watch?v=tfN9gPFmUfA&list=PLla-GdVgzZZV-z0Gxc7rkrV4cuqYSNZMy&index=1&t=4859s"
+        target="_blank"
+        >HTML full course
+      </a>
       <br />
-      <dt>Mouse</dt>
-      <dd>Mouse is an input device</dd>
-    </dl>
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+        target="_blank"
+        ><abbr title="Mozilla Developer Network">MDN</abbr></a
+      >
+      <br />
+      <a href="page2.html" target="_blank">About Me</a>
+    </section>
+    <hr />
+    <p><a href="#">Back to top</a></p>
   </body>
 </html>

@@ -2,6 +2,6 @@ html {
   font-size: 22px;
 }
 body {
-  background-color: black;
-  color: whitesmoke;
+  background-color: rgba(5, 131, 148, 0.9);
+  color: rgb(237, 238, 237);
 }
